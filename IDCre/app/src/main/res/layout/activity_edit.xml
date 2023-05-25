@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.EditActivity"
+    android:orientation="vertical">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        >-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/edit_time"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="370dp"-->
+<!--            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />-->
+
+<!--    </LinearLayout>-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mytoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/btn2"
+        android:elevation="4dp"
+        app:title="            Edit  Your  IDEA"
+        >
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:gravity="top" />
+
+    <LinearLayout
+        android:id="@+id/image_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/tag_button"
+            android:layout_width="42dp"
+            android:layout_height="29dp"
+            app:srcCompat="@drawable/jinghao" />
+
+        <ImageView
+            android:id="@+id/b_button"
+            android:layout_width="34dp"
+            android:layout_height="29dp"
+            android:tag="NB"
+            app:srcCompat="@drawable/bold" />
+
+        <ImageView
+            android:id="@+id/italic_button"
+            android:layout_width="26dp"
+            android:tag="NI"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/italic" />
+
+        <ImageView
+            android:id="@+id/upload_photo"
+            android:layout_width="34dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/upload_picture" />
+
+        <ImageView
+            android:id="@+id/save_button"
+            android:layout_width="37dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="230dp"
+            app:srcCompat="@drawable/save" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/note_edit" android:title="编辑"/>
+    <item android:id="@+id/note_upload" android:title="发布"/>
+    <item android:id="@+id/note_delete" android:title="删除"/>
+</menu>
